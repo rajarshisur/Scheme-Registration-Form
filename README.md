@@ -1,15 +1,68 @@
-# Scheme-Registration-Form
-An online application through which user can create new investment schemes.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create an online application through which user can create new investment schemes. Each scheme, will have the following details:
-A.	Scheme Name: 10 characters long, only capital alphabets will be allowed, must start with JVIS, e.g. JVISMAXSAVE.
-B.	Date of Introduction: MM/DD/YYYY
-C.	Scheme Type: Allowed values: SIP, MIS, STI, LTI, FD, and RD.
-D.	Yearly Interest Rate: E.g. 08.1 %
-E.	IRDA CODE: Length 13 characters, in the format 91-4523-XDS-9, only capital alphabets and number allowed, hyphens added automatically at specified spaces.
-F.	Yearly Minimum Investment: 12 Digit Numeric
-G.	Minimum Tenure of Investment: 1 to 4 Years.
-H.	Pre-mature Closure Charge: Example 02.0 %
+## Available Scripts
 
+In the project directory, you can run:
 
-All the inputs should be traversed sequentially using tab. All the details are mandatory, therefore if a user misses an input or provides erroneous input, the input will be highlighted with appropriate message. Upon successfully providing valid inputs for all the fields, a message will be shown saying “Successfully Registered the Scheme.” when the user clicks on the Register Button. The scheme details will be shown in a table below. Also, all the inputs will be cleared and the name input will get selected. Same will happen when the user clicks on the Clear Button.
+### `yarn start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
